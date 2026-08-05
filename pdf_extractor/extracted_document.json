@@ -1,0 +1,937 @@
+[
+  {
+    "page": 1,
+    "elements": [
+      {
+        "type": "header",
+        "font_size": 20.6299991607666,
+        "text": "                                                                                   GBP Statement"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                           Generated on Jul 30, 2026"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                                Revolut Bank UK Ltd"
+      },
+      {
+        "type": "text",
+        "font_size": 12.380000114440918,
+        "text": "       PRASAD CHATHURA MANAMALA MUDIYANSELAGE"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       77 Marlborough Grove                                              Sort Code      230120"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       Flat 33, Press Court                                                Account Number 66593646"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       SE1 5JU"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       London                                                         IBAN         GB31REVO23012066593646"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                      BIC          REVOGB21"
+      },
+      {
+        "type": "text",
+        "font_size": 12.380000114440918,
+        "text": "       Balance summary"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                                         Closing"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Product                                    Opening balance    Money out        Money in"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                                         balance"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Account (Current Account)                      £9.56            £236.62          £248.21                £21.15"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Total                                      £9.56            £236.62          £248.21                £21.15"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "       The balance on your statement might differ from the balance shown in your app. The statement balance only reflects completed transactions, while the app shows the balance available for use, which accounts for pending transactions."
+      },
+      {
+        "type": "text",
+        "font_size": 12.380000114440918,
+        "text": "       Account transactions from June 1, 2026 to July 30, 2026"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Date             Description                                 Money out        Money in               Balance"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 13, 2026      Transport for London                          £3.50                                   £6.06"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tfl Travel Ch, Tfl.gov.uk/cp"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 13, 2026      Payment from L JAYAWEERA-ARACHC                             £10.00                 £16.06"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 14, 2026      Payment from L JAYAWEERA-ARACHC                             £30.00                 £46.06"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 14, 2026      Flixbus*Bristol                               £30.92                                 £15.14"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Flixbus, Bristol"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 14, 2026      Transport for London                          £5.25                                   £9.89"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tfl Travel Ch, Tfl.gov.uk/cp Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 15, 2026      Payment from L JAYAWEERA-ARACHC                             £10.00                 £19.89"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 16, 2026      giffgaff                                    £12.00                                  £7.89"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Giffgaff, London, GBR"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 16, 2026      Payment from L JAYAWEERA-ARACHC                             £20.00                 £27.89"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Report lost or stolen card  Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). Please read the FSCS Information"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 +44 20 3322 8352        Sheet and Exclusions List, which can be found in your Documents section in-app. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.fscs.org.uk ."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Get help directly in-app"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 Scan the QR code        Revolut Bank UK Ltd ( South Colonnade, London, United Kingdom, E14 5HX. Authorized by the Prudential Regulation Authority and regulated by the https://revolut.com ) is registered in England and Wales (Registered No. 12871051). Registered address: 30"
+      },
+      {
+        "type": "text",
+        "font_size": 6.190000057220459,
+        "text": "                                     Financial Conduct Authority and Prudential Regulation Authority (Financial Services Register No. 981170)."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       © 2026 Revolut Bank UK Ltd                                                                          Page  of 1  4"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "elements": [
+      {
+        "type": "header",
+        "font_size": 20.6299991607666,
+        "text": "                                                                                   GBP Statement"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                           Generated on Jul 30, 2026"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                                Revolut Bank UK Ltd"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Date             Description                                 Money out        Money in               Balance"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 17, 2026      Tesco                                     £9.73                                  £18.16"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 24, 2026      Payment from L JAYAWEERA-ARACHC                             £15.00                 £33.16"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 24, 2026      Payment from BOLONGHEGE PASINDU MANODARA                   £3.85                  £37.01"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                        BOLONGHE"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: Pasindu"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: BOLONGHEGE PASINDU MANODARA BOLONGHE, 70973695"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 24, 2026      Payment from BOLONGHEGE PASINDU MANODARA                   £9.40                  £46.41"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                        BOLONGHE"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: Pasindu"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: BOLONGHEGE PASINDU MANODARA BOLONGHE, 70973695"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 25, 2026      Transport for London                          £5.25                                  £41.16"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tfl Travel Ch, Tfl.gov.uk/cp"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 25, 2026      Tesco                                     £9.40                                  £31.76"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores, London"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 25, 2026      Tesco                                     £7.70                                  £24.06"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 2789, London"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 26, 2026      Revpoints Spare change                        £0.21                                  £23.85"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: Revpoints Spare Change"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 26, 2026      Payment from L JAYAWEERA-ARACHC                             £20.00                 £43.85"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 27, 2026      Tesco                                     £3.00                                  £40.85"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 27, 2026      Lidl                                       £4.92                                  £35.93"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Lidl Gb Walworth, 0242 Lidl Gb, GBR"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 27, 2026      Trainline                                   £23.79                                 £12.14"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Trainline, London, ENG"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 27, 2026      Refund from Flixbus                                           £14.96                 £27.10"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: Flixbus, Bristol"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 28, 2026      Transport for London                          £3.50                                  £23.60"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tfl Travel Ch, Tfl.gov.uk/cp Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jun 30, 2026      Tesco                                     £8.15                                  £15.45"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 2, 2026        Transport for London                          £3.50                                  £11.95"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tfl Travel Ch, Tfl.gov.uk/cp"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 6, 2026        Payment from L JAYAWEERA-ARACHC                             £10.00                 £21.95"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 6, 2026        giffgaff                                    £12.00                                  £9.95"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Giffgaff, London, GBR"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Report lost or stolen card  Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). Please read the FSCS Information"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 +44 20 3322 8352        Sheet and Exclusions List, which can be found in your Documents section in-app. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.fscs.org.uk ."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Get help directly in-app"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 Scan the QR code        Revolut Bank UK Ltd ( South Colonnade, London, United Kingdom, E14 5HX. Authorized by the Prudential Regulation Authority and regulated by the https://revolut.com ) is registered in England and Wales (Registered No. 12871051). Registered address: 30"
+      },
+      {
+        "type": "text",
+        "font_size": 6.190000057220459,
+        "text": "                                     Financial Conduct Authority and Prudential Regulation Authority (Financial Services Register No. 981170)."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       © 2026 Revolut Bank UK Ltd                                                                          Page  of 2  4"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "elements": [
+      {
+        "type": "header",
+        "font_size": 20.6299991607666,
+        "text": "                                                                                   GBP Statement"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                           Generated on Jul 30, 2026"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                                Revolut Bank UK Ltd"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Date             Description                                 Money out        Money in               Balance"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 9, 2026        Payment from L JAYAWEERA-ARACHC                             £10.00                 £19.95"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 10, 2026       Tesco                                     £8.39                                  £11.56"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 12, 2026       Tesco                                     £2.55                                   £9.01"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 13, 2026       Lidl                                       £1.19                                   £7.82"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Lidl Gb Old Kent Rd, Lidl Gb Old K, GBR Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 13, 2026       Payment from L JAYAWEERA-ARACHC                             £15.00                 £22.82"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 14, 2026       Tesco                                     £8.39                                  £14.43"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 16, 2026       National Express                             £8.50                                   £5.93"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: National Express Limit, Birmingham, GBR Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 20, 2026       Tesco                                     £2.55                                   £3.38"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 20, 2026       Lidl                                       £0.78                                   £2.60"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Lidl Gb Walworth, 0242 Lidl Gb, GBR Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 21, 2026       Payment from L JAYAWEERA-ARACHC                             £40.00                 £42.60"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 22, 2026       Tesco                                     £5.94                                  £36.66"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 22, 2026       giffgaff                                    £14.00                                 £22.66"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Giffgaff, London, GBR"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 22, 2026       Lidl                                       £19.40                                  £3.26"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Lidl Gb Walworth, 0242 Lidl Gb, GBR"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 25, 2026       Payment from L JAYAWEERA-ARACHC                             £10.00                 £13.26"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 26, 2026       Sainsbury's                                 £2.00                                  £11.26"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Sainsburys S, Brighton"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 26, 2026       National Trust                               £5.40                                   £5.86"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: National Trust, Eastbourne"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 26, 2026       Transport for London                          £1.75                                   £4.11"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tfl Travel Ch, Tfl.gov.uk/cp Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 26, 2026       Brighton & Hove Bus and Coach                  £3.00                                   £1.11"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Brighton And Hove Bus, Hove, GBR Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Report lost or stolen card  Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). Please read the FSCS Information"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 +44 20 3322 8352        Sheet and Exclusions List, which can be found in your Documents section in-app. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.fscs.org.uk ."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Get help directly in-app"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 Scan the QR code        Revolut Bank UK Ltd ( South Colonnade, London, United Kingdom, E14 5HX. Authorized by the Prudential Regulation Authority and regulated by the https://revolut.com ) is registered in England and Wales (Registered No. 12871051). Registered address: 30"
+      },
+      {
+        "type": "text",
+        "font_size": 6.190000057220459,
+        "text": "                                     Financial Conduct Authority and Prudential Regulation Authority (Financial Services Register No. 981170)."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       © 2026 Revolut Bank UK Ltd                                                                          Page  of 3  4"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "elements": [
+      {
+        "type": "header",
+        "font_size": 20.6299991607666,
+        "text": "                                                                                   GBP Statement"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                           Generated on Jul 30, 2026"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                                                                                                Revolut Bank UK Ltd"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Date             Description                                 Money out        Money in               Balance"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 27, 2026       Payment from L JAYAWEERA-ARACHC                             £30.00                 £31.11"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Reference: HUBBY"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        From: L JAYAWEERA-ARACHC, 36239360"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 28, 2026       Tesco                                     £2.43                                  £28.68"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Tesco Stores 3189, Southwark"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "        Jul 28, 2026       Lidl                                       £7.53                                  £21.15"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        To: Lidl Gb Walworth, 0242 Lidl Gb, GBR"
+      },
+      {
+        "type": "text",
+        "font_size": 4.5,
+        "text": "                        Card: 535456******9135"
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Report lost or stolen card  Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). Please read the FSCS Information"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 +44 20 3322 8352        Sheet and Exclusions List, which can be found in your Documents section in-app. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.fscs.org.uk ."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "                 Get help directly in-app"
+      },
+      {
+        "type": "text",
+        "font_size": 7.429999828338623,
+        "text": "                 Scan the QR code        Revolut Bank UK Ltd ( South Colonnade, London, United Kingdom, E14 5HX. Authorized by the Prudential Regulation Authority and regulated by the https://revolut.com ) is registered in England and Wales (Registered No. 12871051). Registered address: 30"
+      },
+      {
+        "type": "text",
+        "font_size": 6.190000057220459,
+        "text": "                                     Financial Conduct Authority and Prudential Regulation Authority (Financial Services Register No. 981170)."
+      },
+      {
+        "type": "text",
+        "font_size": 8.25,
+        "text": "       © 2026 Revolut Bank UK Ltd                                                                          Page  of 4  4"
+      }
+    ]
+  }
+]
