@@ -16,6 +16,21 @@ provider "aws" {
   skip_metadata_api_check     = true
 }
 
+# --- NEW: Deployment Bucket ---
+resource "aws_s3_bucket" "lambda_deploy_bucket" {
+  bucket = "agent-lambda-deployments"
+}
+
+# --- NEW: Upload the zip file to S3 ---
+resource "aws_s3_object" "lambda_code_zip" {
+  bucket = aws_s3_bucket.lambda_deploy_bucket.id
+  key    = "deployment_package.zip"
+  source = "../deployment_package.zip"
+  # etag ensures Terraform uploads a new version if the zip file changes
+  etag   = filemd5("../deployment_package.zip") 
+}
+
+# --- EXISTING STORAGE & SQS ---
 resource "aws_s3_bucket" "upload_bucket" {
   bucket = "pdf-upload-bucket"
 }
@@ -50,16 +65,19 @@ resource "aws_iam_role" "lambda_exec" {
   })
 }
 
+# --- UPDATED: Lambda Function ---
 resource "aws_lambda_function" "pdf_extractor" {
   function_name    = "pdf-extractor-worker"
   role             = aws_iam_role.lambda_exec.arn
   runtime          = "python3.11"
-  
-  # UPDATE: Point to the new filename (without the .py extension)
-  handler          = "pdf_extraction_lambda.handler" 
-  
+  handler          = "pdf_extraction_lambda.handler"
   timeout          = 300
-  filename         = "../deployment_package.zip"
+  
+  # REMOVED: filename
+  # ADDED: S3 Bucket mapping (Terraform automatically waits for the S3 object to upload first)
+  s3_bucket        = aws_s3_bucket.lambda_deploy_bucket.id
+  s3_key           = aws_s3_object.lambda_code_zip.key
+  
   source_code_hash = filebase64sha256("../deployment_package.zip")
 
   environment {
