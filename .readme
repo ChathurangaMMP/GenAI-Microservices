@@ -1,0 +1,13 @@
+docker-compose up -d
+
+pip install terraform-local awscli-local
+
+irm https://awscli.amazonaws.com/v2/install.ps1 | iex
+aws --endpoint-url=http://localhost:4566 s3 ls
+
+aws configure
+
+docker-compose down
+
+pip install terraform-local
+tflocal init

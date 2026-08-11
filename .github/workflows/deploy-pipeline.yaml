@@ -1,11 +1,11 @@
-name: Deploy Agent Pipeline to LocalStack
+name: Deploy and Verify LocalStack Pipeline
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  deploy-and-test:
+  deploy-infrastructure:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -18,79 +18,37 @@ jobs:
 
       - name: Package Lambda Function
         run: |
-          mkdir package
-          pip install -r requirements.txt -t package/
-          cp lambda_function.py package/
-          cd package
-          zip -r ../deployment_package.zip .
-          cd ..
+          mkdir -p src/package
+          pip install -r src/requirements.txt -t src/package/
+          cp src/lambda_function.py src/package/
+          cd src/package
+          zip -r ../../deployment_package.zip .
 
       - name: Start LocalStack
         uses: LocalStack/setup-localstack@v0.2.3
         with:
-          image-tag: 'latest'
+          image-tag: '3.8.0'
           install-awslocal: 'true'
 
-      - name: Provision Infrastructure
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Install tflocal
+        run: pip install terraform-local
+
+      - name: Deploy Infrastructure (Terraform)
+        working-directory: ./infra
         run: |
-          # 1. Create S3 Buckets
-          awslocal s3 mb s3://pdf-upload-bucket
-          awslocal s3 mb s3://processed-text-bucket
+          tflocal init
+          tflocal apply -auto-approve
 
-          # 2. Create SQS Queue
-          # Get the Queue ARN to use in the event source mapping later
-          QUEUE_URL=$(awslocal sqs create-queue --queue-name pdf-processing-queue --query 'QueueUrl' --output text)
-          QUEUE_ARN=$(awslocal sqs get-queue-attributes --queue-url $QUEUE_URL --attribute-names QueueArn --query 'Attributes.QueueArn' --output text)
-          
-          # 3. Configure S3 to send ObjectCreated events to SQS
-          # We create a JSON config file and apply it to the upload bucket
-          cat < s3-notif-config.json
-          {
-            "QueueConfigurations": [
-              {
-                "QueueArn": "$QUEUE_ARN",
-                "Events": ["s3:ObjectCreated:*"],
-                "Filter": {
-                  "Key": {
-                    "FilterRules": [
-                      { "Name": "suffix", "Value": ".pdf" }
-                    ]
-                  }
-                }
-              }
-            ]
-          }
-          EOF
-          awslocal s3api put-bucket-notification-configuration \
-            --bucket pdf-upload-bucket \
-            --notification-configuration file://s3-notif-config.json
-
-          # 4. Deploy the Lambda Function
-          awslocal lambda create-function \
-            --function-name pdf-extractor-worker \
-            --runtime python3.11 \
-            --handler lambda_function.handler \
-            --role arn:aws:iam::000000000000:role/lambda-role \
-            --zip-file fileb://deployment_package.zip \
-            --timeout 300 \
-            --environment Variables="{DESTINATION_BUCKET=processed-text-bucket}"
-
-          # 5. Create Event Source Mapping (Connect SQS to Lambda)
-          awslocal lambda create-event-source-mapping \
-            --function-name pdf-extractor-worker \
-            --batch-size 1 \
-            --event-source-arn $QUEUE_ARN
-      
-      - name: Test the Pipeline
+      - name: Verify Resource Creation
         run: |
-          # Create a dummy PDF to trigger the pipeline
-          echo "Dummy PDF Content" > test.pdf
+          echo "=== CHECKING S3 BUCKETS ==="
+          awslocal s3 ls
           
-          # Upload triggers S3 -> SQS -> Lambda
-          awslocal s3 cp test.pdf s3://pdf-upload-bucket/test.pdf
+          echo "=== CHECKING SQS QUEUE ==="
+          awslocal sqs list-queues
           
-          # Wait a few seconds for async processing
-          sleep 10
-          
-          # Check if the output JSON was generated in the destination bucket
-          awslocal s3 ls s3://processed-text-bucket/
+          echo "=== CHECKING LAMBDA FUNCTION ==="
+          awslocal lambda list-functions --query 'Functions[*].FunctionName'

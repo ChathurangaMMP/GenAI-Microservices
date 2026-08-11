@@ -2,3 +2,4 @@ PyMuPDF==1.23.8
 langdetect==1.0.9
 pyspellchecker==0.8.0
 boto3
+terraform-local
