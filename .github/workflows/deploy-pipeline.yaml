@@ -29,6 +29,8 @@ jobs:
         with:
           image-tag: '3.8.0'
           install-awslocal: 'true'
+        env:
+          LOCALSTACK_ACKNOWLEDGE_ACCOUNT_REQUIREMENT: "1"
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
