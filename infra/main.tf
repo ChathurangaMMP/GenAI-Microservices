@@ -54,7 +54,10 @@ resource "aws_lambda_function" "pdf_extractor" {
   function_name    = "pdf-extractor-worker"
   role             = aws_iam_role.lambda_exec.arn
   runtime          = "python3.11"
-  handler          = "lambda_function.handler"
+  
+  # UPDATE: Point to the new filename (without the .py extension)
+  handler          = "pdf_extraction_lambda.handler" 
+  
   timeout          = 300
   filename         = "../deployment_package.zip"
   source_code_hash = filebase64sha256("../deployment_package.zip")

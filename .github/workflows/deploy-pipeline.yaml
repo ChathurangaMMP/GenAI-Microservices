@@ -20,16 +20,16 @@ jobs:
         run: |
           mkdir -p src/package
           pip install -r src/requirements.txt -t src/package/
+          # UPDATE: Copy the renamed Python file
           cp src/pdf_extraction_lambda.py src/package/
           cd src/package
           zip -r ../../deployment_package.zip .
 
       - name: Start LocalStack via Docker Compose
-        # We manually boot the container using the version locked in your docker-compose.yml
+        # UPDATE: Use 'docker compose' (with a space) instead of 'docker-compose'
         run: |
-          docker-compose up -d
+          docker compose up -d
           
-          # Wait for LocalStack to fully initialize before proceeding
           echo "Waiting for LocalStack to boot..."
           timeout 60 bash -c 'until curl -s http://localhost:4566/_localstack/health | grep -q "\"version\":"; do sleep 2; done'
           echo "LocalStack is ready!"
